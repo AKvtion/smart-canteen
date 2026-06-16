@@ -1,0 +1,14 @@
+{
+  "name": "smart-canteen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart canteen MVP: employee, menu, order, balance, card/face verify, reports.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
